@@ -1,0 +1,21 @@
+{
+  "name": "typescript_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-typescript": "*",
+    "grunt-contrib-jade": "*",
+    "bower": "*",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  },
+  "scripts": {
+    "install": "bower install; tsc --sourcemap app.ts --module amd; grunt"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+bower_components
+node_modules
+/index.html
+/app.js.map
+/app.js
+.idea
